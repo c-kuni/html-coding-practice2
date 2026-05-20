@@ -1,0 +1,47 @@
+@charset "utf-8";
+
+ul {
+    list-style: none;
+    padding-left: 0;
+}
+
+body {
+    font-family: Arial, sans-serif, Hiragino Kaku Gothic ProN;
+    background-color: #F4F9FF;
+}
+
+h1 {
+    margin: 0;
+}
+
+h2 {
+    font-size: 18px;
+    font-weight: bold;
+    margin: 0;
+}
+
+.wrapper {
+    max-width: 1000px;
+    margin: 0 auto;
+}
+
+.wrapper-content {
+    max-width: 600px;
+    margin: 0 auto;
+}
+
+.logo {
+    width: 160px;
+    height: auto;
+    margin: 60px 0 15px ;
+}
+
+.main-image {
+    width: 1000px;
+    height: auto;
+    margin-bottom: 60px;
+}
+
+.index-section {
+    background-color: white;
+}

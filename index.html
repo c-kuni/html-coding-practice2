@@ -32,15 +32,23 @@
     </script>
     <title>写真集の紹介</title>
     <link rel="stylesheet" href="css/modern-normalize.css" />
-    <link rel="stylesheet" href="style.css" />
+    <link rel="stylesheet" href="css/style.css" />
     <link rel="icon" href="favicon.ico" sizes="24x24" />
   </head>
 
   <body>
-    <header>
-      <h1><p>PHOTO BOOK</p></h1>
+    <header class="navigation wrapper">
+      <h1>
+        <img
+          class="logo"
+          src="logo.svg"
+          alt="サイトのロゴ"
+          width="1400"
+          height="155"
+        />
+      </h1>
     </header>
-    <main>
+    <main class="main-content wrapper">
       <div>
         <img
           class="main-image"
@@ -51,45 +59,54 @@
         />
       </div>
 
-      <section class="index-section">
+      <section class="index-section wrapper-content">
         <h2>INDEX</h2>
-        <ol>
-          <li>
+        <ol class="index-area">
+          <li class="index-item">
             タイトルタイトルタイトルタイトルタイトルタイトルタイトルタイトル
           </li>
-          <li>
+          <li class="index-item">
             タイトルタイトルタイトルタイトルタイトルタイトルタイトルタイトル
           </li>
-          <li>
+          <li class="index-item">
             タイトルタイトルタイトルタイトルタイトルタイトルタイトルタイトル
           </li>
-          <li>
+          <li class="index-item">
             タイトルタイトルタイトルタイトルタイトルタイトルタイトルタイトル
           </li>
-          <li>
+          <li class="index-item">
             タイトルタイトルタイトルタイトルタイトルタイトルタイトルタイトル
           </li>
         </ol>
       </section>
 
-      <section class="detail-section">
+      <section class="detail-section wrapper-content">
         <h2>DETAIL</h2>
-        <section>
-          <h2>タイトルタイトルタイトル</h2>
-          <ul>
-            <li>著者　　　タイトルタイトルタイトル</li>
-            <li>出版社　　タイトルタイトルタイトル</li>
-            <li>発行年　　タイトルタイトルタイトル</li>
-          </ul>
-        </section>
-        <p>
-          テキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキスト
-        </p>
-        <a href="#">オンラインストアで見る</a>
+        <div class="detail-area">
+          <img
+            class="book-image"
+            src="images/detail.webp"
+            alt="本の表紙"
+            width="1000"
+            height="1000"
+          />
+          <div class="book-detail">
+            <h2>タイトルタイトルタイトル</h2>
+            <ul>
+              <li>著者　　　タイトルタイトルタイトル</li>
+              <li>出版社　　タイトルタイトルタイトル</li>
+              <li>発行年　　タイトルタイトルタイトル</li>
+            </ul>
+            <p>
+              テキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキスト
+            </p>
+            <a href="#">オンラインストアで見る</a>
+          </div>
+        </div>
       </section>
     </main>
 
-    <footer>
+    <footer class="footer wrapper-content">
       <p>© 2020 PHOTO BOOK</p>
     </footer>
   </body>
